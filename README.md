@@ -1,4 +1,3 @@
-# pe-functions
+# push-functions
 Useful PHP functions wrappers
-# push-helpers
-# push-helpers
+ 

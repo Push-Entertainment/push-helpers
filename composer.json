@@ -1,0 +1,40 @@
+{
+  "version": "4.0.1",
+  "name": "push/functions",
+  "type": "library",
+  "description": "Helper functions internally Push E.",
+  "keywords": ["relevant","tags","go","here"],
+  "homepage": "https://pushentertainment.com",
+  "license": "MIT",
+  "require": {
+    "php": "^8.0",
+    "ext-json": "*",
+    "aws/aws-sdk-php": "3.322.*",
+    "neitanod/forceutf8": "2.0.4",
+    "rinvex/countries": "v9.0.1",
+    "jimmiw/php-time-ago" : "3.2.4",
+    "guzzlehttp/guzzle" : "7.9.2",
+    "predis/predis": "v2.2.2",
+    "ext-openssl": "*",
+    "gnikyt/basic-shopify-api": "11.0.0",
+    "ext-mysqli": "*",
+    "ext-curl": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "10.5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Push\\Functions\\": "src/functions/",
+      "Push\\Aws\\": "src/aws/",
+      "Push\\Shopify\\": "src/shopify/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Gabriel Croitoru",
+      "email": "gabriel@pushentertainment.com",
+      "role": "Developer"
+    }
+  ]
+}
