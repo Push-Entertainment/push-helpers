@@ -1,5 +1,5 @@
 {
-  "version": "4.0.3",
+  "version": "4.0.4",
   "name": "push/helpers",
   "type": "library",
   "description": "Helper functions internally Push E.",
@@ -17,7 +17,6 @@
     "predis/predis": "v2.2.2",
     "ext-openssl": "*",
     "gnikyt/basic-shopify-api": "11.0.0",
-    "push/helpers": "4.0.2",
     "ext-mysqli": "*",
     "ext-curl": "*"
   },
